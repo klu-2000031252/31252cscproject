@@ -1,0 +1,6 @@
+Code for anvi31252f1:
+import json
+def lambda_handler(event, context):
+print(event['Records'][0]['body'])
+print("Event for anvi31252f1")
+return event
